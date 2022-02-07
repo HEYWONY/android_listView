@@ -52,8 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     // 항목 삭제
                     mData.remove(index);
                     mAdapter.notifyDataSetChanged();
-                }
-                break;
+                } break;
         }
     }
 }
